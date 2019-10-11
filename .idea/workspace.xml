@@ -15,11 +15,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1S0VWTsOijf0qm8picJMYeu75vw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/built_the_class_discribe_rectangle.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Xây dựng lớp hình tròn/built_the_circle_class.html" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,11 +49,22 @@
       <updated>1570700531900</updated>
       <workItem from="1570700533109" duration="3701000" />
       <workItem from="1570716276560" duration="3244000" />
-      <workItem from="1570756086819" duration="2244000" />
+      <workItem from="1570756086819" duration="2582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
