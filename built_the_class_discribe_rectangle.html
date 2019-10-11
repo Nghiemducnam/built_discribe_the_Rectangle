@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500p" height="400" style="border:1px solid #c3c3c3;"></canvas>
+
+<script>
+    let  Rectangle= function (width, length) {
+        this.width= width;
+        this.length= length;
+        this.getWidth=function () {
+            return width;
+        }
+        this.getLength= function () {
+            return length;
+        }
+        this.getArea= function () {
+            return width*length
+
+        }
+        this.getCircum= function () {
+            return (width+length)*2
+        }
+
+        this.display= function () {
+        var c= document.getElementById("myCanvas");
+        var ctx =c.getContext("2d");
+        //ctx.moveTo(0,0);
+        ctx.beginPath();
+        ctx.rect(100,100,width,length);
+        ctx.stroke();
+
+        }
+
+    };
+    let a= parseInt(prompt("nhập vào chiều rộng:"));
+    let b= parseInt(prompt("Nhập vào chiều rộng:"))
+         let hcn1= new Rectangle(a,b);
+         let width1=hcn1.getWidth();
+         let length1= hcn1.getLength();
+         let area1= hcn1.getArea();
+         let circum1= hcn1.getCircum();
+         let display= hcn1.display();
+    alert("chiều dài HCN: " + width1+ " chiều rộng HCN: " + length1+ " Diện tích HCN: " +area1 + "Chu vi HCN: " + circum1)
+
+</script>
+
+</body>
+</html>
